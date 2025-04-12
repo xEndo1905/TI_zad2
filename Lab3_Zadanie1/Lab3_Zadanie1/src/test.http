@@ -1,0 +1,14 @@
+###
+GET http://localhost:8080/api/osoby
+Accept: application/json
+
+###
+
+###
+POST http://localhost:8080/api/osoby
+Content-Type: application/json
+
+{
+  "name": "Łukasz",
+  "age": 22
+}
